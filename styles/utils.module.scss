@@ -50,3 +50,14 @@
 .lightText {
 	color: #666;
 }
+
+.columnFlex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.marginVertLg {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}

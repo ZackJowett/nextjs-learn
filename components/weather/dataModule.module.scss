@@ -1,0 +1,47 @@
+// Colours
+$yellow: #ffe963;
+$primary: #ff6d6d;
+$dark: #8ad0ce;
+$light: #bdf7ff;
+$grey: #4b595e;
+
+// Fonts
+$h1_size: 1.5rem;
+$desc_size: 1.1rem;
+$data_size: 2rem;
+
+.container {
+	padding: 1.5rem;
+	margin: 1rem auto;
+
+	background-color: $light;
+	border: 2px solid $grey;
+	border-radius: 25px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header {
+}
+
+.title {
+	font-size: $h1_size;
+	color: $primary;
+}
+
+.description {
+	font-size: $desc_size;
+	color: $grey;
+}
+
+.content {
+}
+
+.data {
+	color: $primary;
+	font-weight: 600;
+	font-size: $data_size;
+}
